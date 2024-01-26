@@ -37,3 +37,33 @@ export const SKILLS=[
         ],
     },
 ];
+
+
+
+
+
+
+
+
+
+export const WORK_EXPERIENCE=[
+    {
+        title:"Froentend Intern at Soft-Musk",
+        date: "January 2023 - June 2023",
+        responsibilities:[
+            "Developed websites, ensuring high quality standards in the time.",
+            "Implemented GYM Managemet Web-site.",
+            "Participated in daily stand-up meetings and collaborated with senior developers."
+        ],
+    },
+
+    {
+        title:"Intern as React.js at 5TECHG",
+        date:"January 2024 - Present ",
+        responsibilities:[
+            "Just Join "
+            ],
+    },
+
+    
+];

@@ -13,6 +13,13 @@ import Hero from './components/Hero';
 //import SkillCard
 import SkillCard from './components/SkillCard';
 
+//import work Experiance 
+import WorkExperience from './components/WorkExperience';
+
+//import ContactMe
+import ContactMe from './components/ContactMe';
+import Footer from './components/Footer';
+
 
 //try json file importing 
 //import Records from './records.json';
@@ -31,10 +38,12 @@ const App = () =>  {
         <Hero/>
         <Skills/>
         <SkillCard />
-
-    
+        <WorkExperience/>
+        <ContactMe />    
 
       </div>
+
+      <Footer/>
     </div>
   );
 }
