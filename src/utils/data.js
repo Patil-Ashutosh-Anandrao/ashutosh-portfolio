@@ -67,3 +67,76 @@ export const WORK_EXPERIENCE=[
 
     
 ];
+
+
+
+
+
+export const EDUCATION=[
+    {
+        title:"10 TH",
+        date: "June 2018",
+        School:"Shri V. J. Deshmukh High-School, Kolhapur",
+        Marks: "86.60", 
+    },
+
+    {
+        title:"Diploma",
+        date: "June 2018 - June 2021",
+        School:"Govt. Polytechnic, Ratnagiri",
+        Marks: "91.90",
+    },
+
+    {
+        title:"B. Tech",
+        date: "June 2021 - June 2024",
+        School:"Sanjay Ghodawat University, Kolhapur",
+        Marks: "90.30",
+    },
+
+
+    
+];
+
+
+
+
+
+
+export const PROJECTS=[
+    {
+        title:"Create website for COLLAGE ADMISSION SYSTEM",
+        info:[
+            "The manual method of applying and processing students admission is very stressful andCumbersome, forms and files get lost during process, students cue up under thesundaysUnending just to process their admission details while staff it for long laborious hoursattending to students .",
+            "All these problems have been examined and a suitable solution provided.",
+        ],
+    },
+
+    {
+        title:"Rock Paper Scissor Game",
+        info:[
+            "To create a simple command line Rock-Paper Scissor Game without using any external gameLibraries like PyGame.",
+            "In this game, user gets the first chance to pic the option among Rock or Paper or Scissor.",
+            ],
+    },
+
+    {
+        title:"Swap Space in C++",
+        info:[
+            "To find out the total extra capacity in gigabytes we must buy to reformat the drivers",
+            "To display the total extra capacity in gigabytes we must buy to reformat the drives.",
+            ],
+    },
+
+    
+    {
+        title:"Radar System",
+        info:[
+            "GitHub URL : https://github.com/Patil-Ashutosh-Anandrao/Radar-Detector",
+            " Using Aurduino",
+            ],
+    },
+
+    
+];
+

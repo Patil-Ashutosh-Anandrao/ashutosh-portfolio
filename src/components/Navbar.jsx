@@ -32,13 +32,13 @@ const Navbar = () => {
               <a className="menu-item">Education</a>
             </li>
             <li>
-              <a className="menu-item">Project</a>
+              <a className="menu-item">Skills</a>
+            </li>
+            <li>
+              <a className="menu-item">Projects</a>
             </li>
             <li>
               <a className="menu-item">Experience</a>
-            </li>
-            <li>
-              <a className="menu-item">Skills</a>
             </li>
             <li>
               <a className="menu-item">Contact Me</a>

@@ -1,7 +1,8 @@
 import React, { useRef } from 'react';
-import '../css/WorkExperience.css';
-import { WORK_EXPERIENCE } from '../utils/data';
-import ExperienceCard from './ExperienceCard';
+import '../css/Education.css';
+import { EDUCATION } from '../utils/data';
+import EducationCard from './EducationCard';
+
 
 import Slider from 'react-slick';
 
@@ -10,13 +11,9 @@ import ChevronLeftIcon from '@material-ui/icons/ChevronLeft';
 
 
 
+const Education = () => {
 
-
-
-
-const WorkExperience = () => {
-
-  const sliderRef=useRef();
+    const sliderRef=useRef();
 
   const settings={
     dots:false,
@@ -45,11 +42,13 @@ const WorkExperience = () => {
   }
 
 
-  return (
-    <section className="experience-container">
-        <h5>Work Experience</h5>
 
-        <div className="experience-content">
+
+  return (
+    <section className="education-container">
+        <h5>Education</h5>
+
+        <div className="education-content">
 
           <div className="arrow-right" onClick={slideRight}>
             {/* <span class="material-symbols-outlined">chevron_right</span> */}
@@ -62,9 +61,9 @@ const WorkExperience = () => {
           </div>
 
           <Slider ref={sliderRef}{...settings}>
-            {WORK_EXPERIENCE.map((item)=>{
+            {EDUCATION.map((item)=>{
                 return(
-                <ExperienceCard key={item.title} details={item}/>
+                <EducationCard key={item.title} details={item}/>
                 );
             })}
           </Slider>
@@ -72,7 +71,10 @@ const WorkExperience = () => {
         </div>
 
     </section>
-  )
+  
+  );
+  
+
 }
 
-export default WorkExperience;
+export default Education

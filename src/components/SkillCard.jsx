@@ -5,7 +5,7 @@ import { SKILLS } from '../utils/data';
 
 const SkillCard = ({title, iconUrl, isActive, onClick}) => {
   return (
-    <>
+    
         <div className={`skills-card ${isActive ? "active" : " "}`}
             onClick={()=> onClick()}
         >
@@ -18,7 +18,7 @@ const SkillCard = ({title, iconUrl, isActive, onClick}) => {
 
         
         </div>
-    </>
+    
   )
 }
 

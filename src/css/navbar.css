@@ -6,9 +6,15 @@
     top: 0;
     z-index: 30;
     backdrop-filter: blur(50px);
+    /* position: fixed; */
 }
 
+.navbar {
+    /* position: fixed; */
+    background-color: black;
+  }
 
+  
 /* for div */
 .nav-content{
     max-width: 1300px;

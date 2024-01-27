@@ -11,7 +11,7 @@ import Hero from './components/Hero';
  import Skills from './components/Skills';
 
 //import SkillCard
-import SkillCard from './components/SkillCard';
+//import SkillCard from './components/SkillCard';
 
 //import work Experiance 
 import WorkExperience from './components/WorkExperience';
@@ -19,6 +19,12 @@ import WorkExperience from './components/WorkExperience';
 //import ContactMe
 import ContactMe from './components/ContactMe';
 import Footer from './components/Footer';
+
+// import education
+import Education from './components/Education';
+
+//import project
+import Project from './components/Project';
 
 
 //try json file importing 
@@ -36,8 +42,10 @@ const App = () =>  {
       <div className="container">
         
         <Hero/>
+        <Education />
         <Skills/>
-        <SkillCard />
+        {/* <SkillCard /> */}
+        <Project/>
         <WorkExperience/>
         <ContactMe />    
 

@@ -2,7 +2,7 @@
     min-height: 23rem;
     border-radius: 0.65rem;
     border: 1.5px solid #6751b9;
-    background: rgb(22, 17 47,0.398);
+    background: rgba(22, 17,47,0.398);
     backdrop-filter: blur(1rem);
 }
 
@@ -21,18 +21,18 @@
     padding: 2rem;
 }
 
-.skills-info{
+.skill-info{
     display: flex;
     align-items: center;
     justify-content: space-between;
 }
 
-.skills-info p{
+.skill-info p{
     font-size: 1rem;
     font-weight: 500;
 }
 
-.skills-info .percentage{
+.skill-info .percentage{
     color: #dd8cfa;
 }
 

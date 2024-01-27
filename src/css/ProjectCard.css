@@ -1,0 +1,46 @@
+.projectcard-card{
+    background: #130f2a;
+    border-radius: 0.65rem;
+    border: 1.5px solid #6751b9;
+    padding: 1.5rem;
+    margin: 0 1rem;
+}
+
+.projectcard-card h6{
+    font-size: 1.5rem;
+    font-weight: 500;
+    margin-bottom: 0.7rem;
+}
+
+.projectcard-card ul li{
+    list-style: none;
+    font-size: 0.8rem;
+    font-weight: 400;
+    margin-bottom: 0.5rem;
+    position: relative;
+}
+
+.projectcard-card ul li::after{
+    content: " ";
+    width: 0.5rem;
+    height: 0.5rem;
+    background-color: #6751b9;
+    border-radius: 0.5rem;
+    position: absolute;
+    left: -1.3rem;
+    top: 0.35rem;
+}
+
+@media (max-width: 1025px){
+    .projectcard-card{
+        margin: 0;
+    }
+
+    .projectcard-card h6{
+        font-size: 0.95rem;
+    }
+    
+    .projectcard-card ul li{
+        font-size: 0.75rem;
+    }
+}

@@ -22,4 +22,4 @@ const ExperienceCard = ({ details }) => {
   )
 }
 
-export default ExperienceCard
+export default ExperienceCard;

@@ -20,7 +20,7 @@
     font-weight: 500;
 }
 
-.skills-icon{
+.skill-icon{
     width: 4rem;
     height: 4rem;
     display: flex;
@@ -34,7 +34,7 @@
     left: -1rem;
 }
 
-.skills-icon img{
+.skill-icon img{
     width: 2.4rem;
     height: auto;
     object-fit: contain;
@@ -50,12 +50,12 @@
         font-size: 1rem;
     }
 
-    .skills-icon{
+    .skill-icon{
         width: 3rem;
         height: 3rem;
     }
 
-    .skills-icon img{
+    .skill-icon img{
         width: 1.8rem;
     }
 }
